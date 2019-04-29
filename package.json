@@ -6,21 +6,21 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "gatsby": "^2.3.17",
+    "gatsby": "^2.0.117",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "peerDependencies": {
-    "gatsby": "^2.3.17",
+    "gatsby": "^2.0.117",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^0.20.3",
-    "@mdx-js/tag": "^0.20.3",
-    "gatsby": "^2.3.17",
+    "@mdx-js/mdx": "^0.16.8",
+    "@mdx-js/tag": "^0.16.8",
+    "gatsby-mdx": "^0.3.5",
+    "gatsby": "^2.0.117",
     "gatsby-image": "^2.0.34",
-    "gatsby-mdx": "^0.4.5",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
