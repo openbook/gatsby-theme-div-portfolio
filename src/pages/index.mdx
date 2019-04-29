@@ -1,0 +1,21 @@
+import {
+    Heading,
+    ProjectsContainer,
+    Grid,
+    GridCol,
+    ReadMore,
+    Section,
+    SkillList
+} from '../components';
+
+<Section>
+    <Heading tag='h2' className='subheading h5' text='Projects' />
+    <ProjectsContainer number={2} />
+    <ReadMore path='/projects' />
+</Section>
+
+<Section>
+    <Heading tag='h2' className='subheading h5' text='What I do' />
+    <SkillList />
+    <ReadMore path='/about' />
+</Section>

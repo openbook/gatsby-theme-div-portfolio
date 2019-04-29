@@ -1,0 +1,27 @@
+.icon {
+  content: '';
+  background-size: $control-icon-size;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  width: $control-icon-size;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: $control-icon-size;
+  position: absolute;
+
+  &.icon--linkedin {
+    background-image: url('./icons/linkedin.svg');
+  }
+
+  &.icon--github {
+    background-image: url('./icons/github.svg');
+  }
+
+  &.icon--large {
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+  }
+}

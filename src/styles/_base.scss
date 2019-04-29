@@ -1,0 +1,50 @@
+// Base
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: $html-font-size;
+  line-height: $html-line-height;
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+}
+
+body {
+  background: $body-bg;
+  color: $body-font-color;
+  font-family: $body-font-family;
+  font-size: $font-size;
+  font-weigh: 300;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: $link-color;
+  outline: none;
+  text-decoration: none;
+
+  &.active {
+    font-weight: bold;
+  }
+
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    color: $link-color-dark;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $link-color-light;
+  }
+}
