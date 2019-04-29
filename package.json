@@ -38,8 +38,6 @@
     "gatsby-transformer-sharp": "^2.1.18",
     "node-sass": "^4.11.0",
     "prismjs": "^1.16.0",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
     "spectre.css": "^0.5.8"
   }
